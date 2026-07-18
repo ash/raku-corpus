@@ -1,0 +1,7 @@
+my /* inline comment */ a;
+# one-line comment
+a = 10;
+
+/* multi-line
+   comment */
+say a;

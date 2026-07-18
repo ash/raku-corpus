@@ -1,0 +1,20 @@
+my a = 7;
+say a;
+
+say 8;
+say "nine";
+
+a = 10;
+say a;
+
+my data[];
+my relation{};
+
+data[3] = 4;
+color{"red"} = "#FF0000";
+
+data = 7, 8, 9;
+color = "white": "#FFFFFF", "black": "#000000";
+
+my array[] = 1, 3, 4;
+my h{} = "a": 1, "b": 2;

@@ -1,0 +1,2 @@
+my n = 5;
+loop n say n;

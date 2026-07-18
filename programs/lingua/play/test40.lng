@@ -1,0 +1,19 @@
+my n = 5;
+loop n 
+    say n;
+
+my c = 0;
+if c {
+    say "c = $c";
+    say "IF clause";
+}
+else {
+    say "c = $c";
+    say "ELSE clause";
+}
+
+my n = 5;
+loop n {
+    say n;
+    say n * 2;
+}

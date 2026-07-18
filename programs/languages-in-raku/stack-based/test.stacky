@@ -1,0 +1,16 @@
+"Hello, World!" print
+
+"World!" "Hello, " print print
+
+20 22 + print
+
+42 "x" var
+x print
+
+10 x - print
+
+10 "y" var
+x y * print
+
+1 2 3 + + "sum" var
+sum print

@@ -1,0 +1,5 @@
+my a;
+my b = 2;
+my c = b;
+
+my s = "abc";

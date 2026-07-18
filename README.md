@@ -1,0 +1,48 @@
+# raku-corpus
+
+A corpus of real-world Raku (Perl 6) programs written by Andrew Shitov over the years
+2015–2024, collected from his books, the Raku course, programming-challenge solutions,
+and assorted experiments.
+
+The purpose of the corpus is to test Raku implementations against *real* code.
+The [Roast](https://github.com/Raku/roast) spec suite tests language features mostly in
+isolation; real programs combine features in ways Roast never does, and that is where
+implementations break. This corpus is used as a test target for
+[Raku++](https://github.com/ash/rakupp).
+
+## Layout
+
+| Directory | Source | Contents |
+|---|---|---|
+| `books/perl6-at-a-glance/` | [ash/perl6-at-a-glance](https://github.com/ash/perl6-at-a-glance) | Programs from the book *Perl 6 at a Glance* (2017) |
+| `books/using-raku/` | [ash/p6challenges](https://github.com/ash/p6challenges) | Programs from *Using Perl 6* (2017) / *Using Raku* (2019): 100 programming challenges |
+| `books/raku-one-liners/` | extracted from the book PDF | One-liners from *Raku One-Liners* (2019) |
+| `books/perl6-calendar-2019/` | extracted from the calendar PDF | The 12 monthly programs of the *Perl 6 Calendar 2019* |
+| `course/` | [ash/raku-course](https://github.com/ash/raku-course) | Exercise solutions and examples from the [Raku course](https://course.raku.org) |
+| `challenges/perl-weekly-challenge/` | [PWC club](https://github.com/manwar/perlweeklychallenge-club) (`*/ash/raku`) + [ash/raku-challenges](https://github.com/ash/raku-challenges) | The Weekly Challenge solutions, merged from both repositories, one directory per challenge |
+| `challenges/project-euler/` | [ash/projecteuler](https://github.com/ash/projecteuler) | Project Euler solutions |
+| `challenges/advent-of-code/` | [ash/adventofcode](https://github.com/ash/adventofcode) | Advent of Code solutions (2016–2020), with input files |
+| `challenges/advent-of-raku-2020/` | [ash/advent-of-raku-2020](https://github.com/ash/advent-of-raku-2020) (`ash/`) | Advent of Code 2020 solutions from the community repo |
+| `snippets/` | perl6tests, perl6-play, raku-test, perl6-assorti, perl5to6 (Perl 6 halves only), migratingtoperl6 (`.pl6` only), yr2017-perl6, advent-2019 (`Raku/`), a-language-a-day (`Raku/`) | Small demonstration programs and playground experiments |
+| `programs/` | lingua, languages-in-raku, lang, factorial, num-seq (Raku files), perl6-grammar-play | Larger programs: the Lingua compiler, toy language interpreters, grammar experiments, algorithm collections |
+
+## Notes
+
+- File extensions are historical: `.pl`, `.p6`, `.pl6` files here are Perl 6/Raku
+  programs (except where a source repo intentionally paired Perl 5 and Perl 6 versions;
+  the Perl 5 halves were not imported).
+- `compile-status.tsv` records, for every program file, whether it compiles
+  under Rakudo v2026.06: `OK` (plain `raku -c`), `OKI` (compiles with the file's
+  own directory and a local `lib/` on the include path), `FAIL`. The 69 failures
+  are legitimate: very old syntax, fragments meant to demonstrate an error, or
+  dependencies on modules that are not installed (e.g. Bailador, DBIish).
+- Some programs expect input files next to them, read from `$*IN`, use `rand`,
+  `DateTime.now`, threads, or sockets, and are therefore not deterministic.
+  Per-program run metadata (expected output, needed input) is planned as a next step.
+- In `books/perl6-calendar-2019/`, lines marked `# prelude added for runnability` /
+  `# output added for runnability` were added during extraction; everything else is
+  as printed in the calendar.
+
+## Copyright
+
+All programs © Andrew Shitov, from his published books and public repositories.

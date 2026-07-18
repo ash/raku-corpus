@@ -1,0 +1,24 @@
+my x = 3;
+say x;
+
+x = 5;
+say x;
+
+my s = "abc";
+s = "def";
+say s[1];
+say s;
+
+my data[];
+
+data[0] = 10;
+data[1] = 20;
+
+say data[0];
+say data[1];
+
+my n = data[0] * data[1];
+say n;
+
+data[2] = "string";
+say data[2];
