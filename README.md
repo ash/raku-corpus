@@ -12,19 +12,22 @@ implementations break. This corpus is used as a test target for
 
 ## Layout
 
-| Directory | Source | Contents |
-|---|---|---|
-| `books/perl6-at-a-glance/` | [ash/perl6-at-a-glance](https://github.com/ash/perl6-at-a-glance) | Programs from the book *Perl 6 at a Glance* (2017) |
-| `books/using-raku/` | [ash/p6challenges](https://github.com/ash/p6challenges) | Programs from *Using Perl 6* (2017) / *Using Raku* (2019): 100 programming challenges |
-| `books/raku-one-liners/` | extracted from the book PDF | One-liners from *Raku One-Liners* (2019) |
-| `books/perl6-calendar-2019/` | extracted from the calendar PDF | The 12 monthly programs of the *Perl 6 Calendar 2019* |
-| `course/` | [ash/raku-course](https://github.com/ash/raku-course) | Exercise solutions and examples from the [Raku course](https://course.raku.org) |
-| `challenges/perl-weekly-challenge/` | [PWC club](https://github.com/manwar/perlweeklychallenge-club) (`*/ash/raku`) + [ash/raku-challenges](https://github.com/ash/raku-challenges) | The Weekly Challenge solutions, merged from both repositories, one directory per challenge |
-| `challenges/project-euler/` | [ash/projecteuler](https://github.com/ash/projecteuler) | Project Euler solutions |
-| `challenges/advent-of-code/` | [ash/adventofcode](https://github.com/ash/adventofcode) | Advent of Code solutions (2016–2020), with input files |
-| `challenges/advent-of-raku-2020/` | [ash/advent-of-raku-2020](https://github.com/ash/advent-of-raku-2020) (`ash/`) | Advent of Code 2020 solutions from the community repo |
-| `snippets/` | perl6tests, perl6-play, raku-test, perl6-assorti, perl5to6 (Perl 6 halves only), migratingtoperl6 (`.pl6` only), yr2017-perl6, advent-2019 (`Raku/`), a-language-a-day (`Raku/`) | Small demonstration programs and playground experiments |
-| `programs/` | lingua, languages-in-raku, lang, factorial, num-seq (Raku files), perl6-grammar-play | Larger programs: the Lingua compiler, toy language interpreters, grammar experiments, algorithm collections |
+| Directory | Programs | Source | Contents |
+|---|---:|---|---|
+| `books/perl6-at-a-glance/` | 234 | [ash/perl6-at-a-glance](https://github.com/ash/perl6-at-a-glance) | Programs from the book *Perl 6 at a Glance* (2017) |
+| `books/using-raku/` | 177 | [ash/p6challenges](https://github.com/ash/p6challenges) | Programs from *Using Perl 6* (2017) / *Using Raku* (2019): 100 programming challenges |
+| `books/raku-one-liners/` | 102 | extracted from the book PDF | One-liners from *Raku One-Liners* (2019) |
+| `books/perl6-calendar-2019/` | 12 | extracted from the calendar PDF | The 12 monthly programs of the *Perl 6 Calendar 2019* |
+| `course/` | 435 | [ash/raku-course](https://github.com/ash/raku-course) | Exercise solutions and examples from the [Raku course](https://course.raku.org) |
+| `challenges/perl-weekly-challenge/` | 208 | [PWC club](https://github.com/manwar/perlweeklychallenge-club) (`*/ash/raku`) + [ash/raku-challenges](https://github.com/ash/raku-challenges) | The Weekly Challenge solutions, merged from both repositories, one directory per challenge |
+| `challenges/project-euler/` | 17 | [ash/projecteuler](https://github.com/ash/projecteuler) | Project Euler solutions |
+| `challenges/advent-of-code/` | 27 | [ash/adventofcode](https://github.com/ash/adventofcode) | Advent of Code solutions (2016–2020), with input files |
+| `challenges/advent-of-raku-2020/` | 19 | [ash/advent-of-raku-2020](https://github.com/ash/advent-of-raku-2020) (`ash/`) | Advent of Code 2020 solutions from the community repo |
+| `snippets/` | 604 | perl6tests, perl6-play, raku-test, perl6-assorti, perl5to6 (Perl 6 halves only), migratingtoperl6 (`.pl6` only), yr2017-perl6, advent-2019 (`Raku/`), a-language-a-day (`Raku/`) | Small demonstration programs and playground experiments |
+| `programs/` | 96 | lingua, languages-in-raku, lang, factorial, num-seq (Raku files), perl6-grammar-play | Larger programs: the Lingua compiler, toy language interpreters, grammar experiments, algorithm collections |
+
+In total: **1931 programs** (counted by file: `.raku`, `.p6`, `.pl6`, `.pl`, module
+and test files, and the one-liner `.sh` commands).
 
 ## Notes
 
