@@ -1,0 +1,4 @@
+No such method 'length' for string 'hello'. Did you mean any of these:
+'chars', 'codes'?
+  in block <unit> at 06-stringlength.pl line 28
+

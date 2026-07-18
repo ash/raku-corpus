@@ -1,0 +1,3 @@
+Impossible coercion from 'Any' into 'IO': no acceptable coercion method found
+  in block <unit> at file3.pl line 3
+

@@ -1,0 +1,7 @@
+Potential difficulties:
+    Redeclaration of symbol '$text'.
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.ejOqUUthKC/logical.pl:29
+    ------> my $text<HERE>;
+    Redeclaration of symbol '$text'.
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.ejOqUUthKC/logical.pl:38
+    ------> my $text<HERE>;

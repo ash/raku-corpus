@@ -1,0 +1,47 @@
+｢my $x;
+$x = 5;
+say $x; # 5 
+
+my $y;
+$y = $x;
+say $y; # 5
+
+my $z;
+$z = $x + $y;
+say $z; # 10
+
+my $sum;
+$sum = 10 + 11 + $x + $y + $z;
+say $sum; # 27
+｣
+ statement => ｢my $x;
+｣
+ statement => ｢$x = 5;
+｣
+ statement => ｢say $x; ｣
+ comment => ｢# 5 
+
+｣
+ statement => ｢my $y;
+｣
+ statement => ｢$y = $x;
+｣
+ statement => ｢say $y; ｣
+ comment => ｢# 5
+
+｣
+ statement => ｢my $z;
+｣
+ statement => ｢$z = $x + $y;
+｣
+ statement => ｢say $z; ｣
+ comment => ｢# 10
+
+｣
+ statement => ｢my $sum;
+｣
+ statement => ｢$sum = 10 + 11 + $x + $y + $z;
+｣
+ statement => ｢say $sum; ｣
+ comment => ｢# 27
+｣

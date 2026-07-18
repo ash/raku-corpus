@@ -1,0 +1,4 @@
+No such method 'lc' for invocant of type 'Any'
+  in sub normalize at anagrams.pl line 8
+  in block <unit> at anagrams.pl line 4
+

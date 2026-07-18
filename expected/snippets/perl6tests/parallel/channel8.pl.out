@@ -1,0 +1,4 @@
+Before calling close()
+Thread #4 (GeneralWorker)
+Channel is closed
+After calling close()

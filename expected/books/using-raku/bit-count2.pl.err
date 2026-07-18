@@ -1,0 +1,4 @@
+Use of uninitialized value of type Any in numeric context
+  in block <unit> at bit-count2.pl line 5
+Use of uninitialized value of type Any in numeric context
+  in block <unit> at bit-count2.pl line 6

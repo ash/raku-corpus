@@ -1,0 +1,4 @@
+No such method 'flip' for invocant of type 'Any'. Did you mean any of
+these: 'Slip', 'flat', 'skip'?
+  in block <unit> at palindrome.pl line 2
+

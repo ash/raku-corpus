@@ -1,0 +1,8 @@
+Saw 1 occurrence of deprecated code.
+================================================================================
+.pm file extension in raku library path seen at:
+  file#/private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.Nwe9DJBlCm, line 0
+Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+--------------------------------------------------------------------------------
+Please contact the author to have these occurrences of deprecated code
+adapted, so that this message will disappear!

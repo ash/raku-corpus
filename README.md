@@ -39,9 +39,24 @@ and test files, and the one-liner `.sh` commands).
   own directory and a local `lib/` on the include path), `FAIL`. The 69 failures
   are legitimate: very old syntax, fragments meant to demonstrate an error, or
   dependencies on modules that are not installed (e.g. Bailador, DBIish).
-- Some programs expect input files next to them, read from `$*IN`, use `rand`,
-  `DateTime.now`, threads, or sockets, and are therefore not deterministic.
-  Per-program run metadata (expected output, needed input) is planned as a next step.
+- `expected/` holds reference outputs produced by Rakudo v2026.06: for every program
+  that ran deterministically, `expected/<path>.out` is its stdout and
+  `expected/<path>.err` (if present) its stderr. Runs were made in a throwaway copy
+  of the program's directory, stdin from `/dev/null`, `TZ=UTC`, no arguments,
+  a 30-second limit, and the file's directory and `lib/` on the include path.
+- `run-status.tsv` (columns: status, exit code, ms, flags, file) classifies each of
+  the 1862 runnable programs. Every program was run twice; statuses:
+  - `OK` (1642) — exit 0, both runs identical; reference output stored.
+  - `NONZERO` (147) — deterministic but non-zero exit (missing arguments,
+    intentional `die` demos); output stored, but note the exact error text is
+    implementation-specific.
+  - `NONDET` (57) — the two runs differed (`rand`, hash order, thread timing);
+    no reference output stored.
+  - `TIMEOUT` (16) — exceeded 30 s (infinite-sequence demos, heavy computations).
+  The `src-hint` flag marks programs whose source mentions time- or
+  randomness-related constructs (`now`, `today`, `sleep`, `start`, …); 112 `OK`
+  programs carry it, and their stored outputs may be date- or machine-dependent
+  even though two same-day runs agreed.
 - In `books/perl6-calendar-2019/`, lines marked `# prelude added for runnability` /
   `# output added for runnability` were added during extraction; everything else is
   as printed in the calendar.

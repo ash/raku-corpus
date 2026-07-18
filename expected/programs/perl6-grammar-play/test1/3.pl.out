@@ -1,0 +1,11 @@
+42
+｢x=42
+print x
+｣
+ statement => ｢x=42｣
+  assignment => ｢x=42｣
+   identifier => ｢x｣
+   value => ｢42｣
+ statement => ｢print x｣
+  printout => ｢print x｣
+   identifier => ｢x｣

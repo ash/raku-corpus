@@ -1,0 +1,7 @@
+False
+(Restaurant+{Floating})
+Perl6::Metamodel::ClassHOW.new
+Restaurant+{Floating}
+Restaurant+{Floating}
+((Restaurant+{Floating}) (Restaurant) (House) (Any) (Mu))
+((Restaurant+{Floating}) (Restaurant) (House) (Any) (Mu))

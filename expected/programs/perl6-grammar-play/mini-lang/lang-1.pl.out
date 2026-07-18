@@ -1,0 +1,72 @@
+｢x = 42;
+y = x;
+print x;
+print y;
+
+print 7;
+
+x = 15;
+print x;
+y = x;
+print y;
+
+print z;
+｣
+ statements => ｢x = 42;
+y = x;
+print x;
+print y;
+
+print 7;
+
+x = 15;
+print x;
+y = x;
+print y;
+
+print z;
+｣
+  statement => ｢x = 42｣
+   assignment => ｢x = 42｣
+    identifier => ｢x｣
+    expression => ｢42｣
+     value => ｢42｣
+  statement => ｢y = x｣
+   assignment => ｢y = x｣
+    identifier => ｢y｣
+    expression => ｢x｣
+     identifier => ｢x｣
+  statement => ｢print x｣
+   printout => ｢print x｣
+    expression => ｢x｣
+     identifier => ｢x｣
+  statement => ｢print y｣
+   printout => ｢print y｣
+    expression => ｢y｣
+     identifier => ｢y｣
+  statement => ｢print 7｣
+   printout => ｢print 7｣
+    expression => ｢7｣
+     value => ｢7｣
+  statement => ｢x = 15｣
+   assignment => ｢x = 15｣
+    identifier => ｢x｣
+    expression => ｢15｣
+     value => ｢15｣
+  statement => ｢print x｣
+   printout => ｢print x｣
+    expression => ｢x｣
+     identifier => ｢x｣
+  statement => ｢y = x｣
+   assignment => ｢y = x｣
+    identifier => ｢y｣
+    expression => ｢x｣
+     identifier => ｢x｣
+  statement => ｢print y｣
+   printout => ｢print y｣
+    expression => ｢y｣
+     identifier => ｢y｣
+  statement => ｢print z｣
+   printout => ｢print z｣
+    expression => ｢z｣
+     identifier => ｢z｣

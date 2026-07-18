@@ -1,0 +1,3 @@
+No such method 'IO' for invocant of type 'Any'. Did you mean 'so'?
+  in block <unit> at 16a-reverse-without-chomp.raku line 1
+

@@ -1,0 +1,2 @@
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at tens.raku line 3

@@ -1,0 +1,11 @@
+-2 -> True
+-0.5 -> True
+-0.333333 -> True
+0 -> False
+0.333333 -> True
+0.5 -> True
+2 -> True
+False
+False
+False
+False

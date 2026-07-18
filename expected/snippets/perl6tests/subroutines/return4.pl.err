@@ -1,0 +1,4 @@
+Type check failed for return value; expected Int but got Rat (6.0)
+  in sub add at return4.pl line 2
+  in block <unit> at return4.pl line 5
+

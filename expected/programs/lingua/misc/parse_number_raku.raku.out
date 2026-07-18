@@ -1,0 +1,20 @@
+OK 7 = 7 (Int)
+OK 77 = 77 (Int)
+OK -84 = -84 (Int)
+OK +7 = 7 (Int)
+OK 0 = 0 (Int)
+OK 3.14 = 3.14 (Rat)
+OK -2.78 = -2.78 (Rat)
+OK 5.0 = 5 (Rat)
+OK .5 = 0.5 (Rat)
+OK -5.3 = -5.3 (Rat)
+OK -.3 = -0.3 (Rat)
+OK 3E4 = 30000 (Num)
+OK -33E55 = -3.3e+56 (Num)
+OK 3E-3 = 0.003 (Num)
+OK -1E-2 = -0.01 (Num)
+OK 3.14E2 = 314 (Num)
+OK .5E-3 = 0.0005 (Num)
+NOT OK 
+NOT OK -
+NOT OK +

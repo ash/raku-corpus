@@ -1,0 +1,6 @@
+Use of uninitialized value of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at palindrome2.pl line 3
+No such method 'lc' for invocant of type 'Any'
+  in block <unit> at palindrome2.pl line 4
+

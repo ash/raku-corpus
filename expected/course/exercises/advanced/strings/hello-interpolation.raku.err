@@ -1,0 +1,6 @@
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at hello-interpolation.raku line 2
+No such method 'chars' for invocant of type 'Any'. Did you mean 'chrs'?
+  in block <unit> at hello-interpolation.raku line 2
+

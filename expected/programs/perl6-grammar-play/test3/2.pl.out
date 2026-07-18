@@ -1,0 +1,15 @@
+42 ~~ number_regex: 
+｢42｣
+ number_regex => ｢42｣
+42 ~~ number_token: 
+｢42｣
+ number_token => ｢42｣
+42 ~~ number_rule: 
+False
+4 2 ~~ number_regex: 
+False
+4 2 ~~ number_token: 
+False
+4 2 ~~ number_rule: 
+｢4 2｣
+ number_rule => ｢4 2｣

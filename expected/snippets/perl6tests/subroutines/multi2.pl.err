@@ -1,0 +1,5 @@
+===SORRY!=== Error while compiling multi2.pl
+Calling f(Int) will never work with any of these multi signatures:
+    (Num)
+at multi2.pl:4
+------> <BOL><HERE>f(10);   # f(Int)

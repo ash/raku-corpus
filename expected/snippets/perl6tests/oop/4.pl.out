@@ -1,0 +1,1 @@
+House.new(rooms => 2, area => 100, height => 4, address => "22, rue du Grenier-Saint-Lazare, 75003, Paris, France")

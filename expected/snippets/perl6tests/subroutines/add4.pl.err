@@ -1,0 +1,4 @@
+===SORRY!=== Error while compiling add4.pl
+Calling add(Str, Str) will never work with declared signature (Int $x, Int $b)
+at add4.pl:5
+------> say <HERE>add('Hello', 'World');

@@ -1,0 +1,13 @@
+Use of uninitialized value of type Any in numeric context
+  in sub calculate at 06.pl line 12
+Use of uninitialized value of type Any in numeric context
+  in sub calculate at 06.pl line 12
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at 06.pl line 8
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at 06.pl line 8
+Attempt to divide by zero when coercing Rational to Str
+  in block <unit> at 06.pl line 8
+

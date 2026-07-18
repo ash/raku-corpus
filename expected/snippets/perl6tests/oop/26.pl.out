@@ -1,0 +1,1 @@
+[ModernHouse.new(power => 100, rooms => 3, area => Any, height => Any, address => Any)]

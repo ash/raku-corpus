@@ -1,0 +1,7 @@
+An operation first awaited:
+  in block <unit> at promise7.pl line 5
+
+Died with the exception:
+    Access denied to keep/break this Promise; already vowed
+      in block  at promise7.pl line 3
+

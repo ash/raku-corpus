@@ -1,0 +1,3 @@
+Type check failed in assignment to $!area; expected Real but got Str ("Calle Velázquez 57,...)
+  in block <unit> at 6.pl line 10
+

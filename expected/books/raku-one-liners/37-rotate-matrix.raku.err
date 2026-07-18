@@ -1,0 +1,4 @@
+Potential difficulties:
+    Useless use of [Z] in sink context
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.OZJoBOmVUo/37-rotate-matrix.raku:1
+    ------> <BOL><HERE>[Z] <A B C>, <D E F>, <H I J>

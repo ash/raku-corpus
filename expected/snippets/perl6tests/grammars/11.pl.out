@@ -1,0 +1,83 @@
+(G)
+(G)
+｢my $alpha;
+$alpha = 50;
+say $alpha;
+
+my $beta;
+$beta = 60;
+say $beta;
+｣
+ statement => ｢my $alpha;
+｣
+  variable-declaration => ｢my $alpha｣
+   variable => ｢$alpha｣
+    sigil => ｢$｣
+    identifier => ｢alpha｣
+     alpha => ｢a｣
+     alnum => ｢l｣
+     alnum => ｢p｣
+     alnum => ｢h｣
+     alnum => ｢a｣
+ statement => ｢$alpha = 50;
+｣
+  assignment => ｢$alpha = 50｣
+   variable => ｢$alpha｣
+    sigil => ｢$｣
+    identifier => ｢alpha｣
+     alpha => ｢a｣
+     alnum => ｢l｣
+     alnum => ｢p｣
+     alnum => ｢h｣
+     alnum => ｢a｣
+   value => ｢50｣
+    number => ｢50｣
+     digit => ｢5｣
+     digit => ｢0｣
+ statement => ｢say $alpha;
+
+｣
+  say-function => ｢say $alpha｣
+   variable => ｢$alpha｣
+    sigil => ｢$｣
+    identifier => ｢alpha｣
+     alpha => ｢a｣
+     alnum => ｢l｣
+     alnum => ｢p｣
+     alnum => ｢h｣
+     alnum => ｢a｣
+ statement => ｢my $beta;
+｣
+  variable-declaration => ｢my $beta｣
+   variable => ｢$beta｣
+    sigil => ｢$｣
+    identifier => ｢beta｣
+     alpha => ｢b｣
+     alnum => ｢e｣
+     alnum => ｢t｣
+     alnum => ｢a｣
+ statement => ｢$beta = 60;
+｣
+  assignment => ｢$beta = 60｣
+   variable => ｢$beta｣
+    sigil => ｢$｣
+    identifier => ｢beta｣
+     alpha => ｢b｣
+     alnum => ｢e｣
+     alnum => ｢t｣
+     alnum => ｢a｣
+   value => ｢60｣
+    number => ｢60｣
+     digit => ｢6｣
+     digit => ｢0｣
+ statement => ｢say $beta;
+｣
+  say-function => ｢say $beta｣
+   variable => ｢$beta｣
+    sigil => ｢$｣
+    identifier => ｢beta｣
+     alpha => ｢b｣
+     alnum => ｢e｣
+     alnum => ｢t｣
+     alnum => ｢a｣
+{$ => {alpha => 50, beta => 60}}

@@ -1,0 +1,8 @@
+Saw 1 occurrence of deprecated code.
+================================================================================
+Method perl (from Mu) seen at:
+  2.pl, line 16
+Please use raku instead.
+--------------------------------------------------------------------------------
+Please contact the author to have these occurrences of deprecated code
+adapted, so that this message will disappear!

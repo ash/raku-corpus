@@ -1,0 +1,6 @@
+Failed to open file /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.YQmhryGsyJ/dummy.txt: No such file or directory
+  in block <unit> at 14.pl line 1
+
+Actually thrown at:
+  in block <unit> at 14.pl line 2
+

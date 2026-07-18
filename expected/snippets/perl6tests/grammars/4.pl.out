@@ -1,0 +1,21 @@
+｢my $x;
+my @array;
+｣
+ statement => ｢my $x;
+｣
+  variable-declaration => ｢my $x｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣
+ statement => ｢my @array;
+｣
+  variable-declaration => ｢my @array｣
+   variable => ｢@array｣
+    sigil => ｢@｣
+    identifier => ｢array｣
+     alpha => ｢a｣
+     alnum => ｢r｣
+     alnum => ｢r｣
+     alnum => ｢a｣
+     alnum => ｢y｣

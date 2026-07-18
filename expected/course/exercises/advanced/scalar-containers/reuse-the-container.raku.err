@@ -1,0 +1,4 @@
+$untyped = Any
+Int $typed = Int
+$untyped = 42
+Int $typed = 42

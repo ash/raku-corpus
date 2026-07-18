@@ -1,0 +1,30 @@
+｢my $x;
+$x = 100;
+say $x;
+｣
+ statement => ｢my $x;
+｣
+  variable-declaration => ｢my $x｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣
+ statement => ｢$x = 100;
+｣
+  assignment => ｢$x = 100｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣
+   value => ｢100｣
+    number => ｢100｣
+     digit => ｢1｣
+     digit => ｢0｣
+     digit => ｢0｣
+ statement => ｢say $x;
+｣
+  say-function => ｢say $x｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣

@@ -1,0 +1,47 @@
+??$x
+<x>
+[$x]
+??my $x
+<x>
+[$x]
+??$x
+<x>
+[$x]
+??32
+<>
+[$]
+-->$
+??$x = 32
+<x>
+[$x]
+??$y
+<y>
+[$y]
+??my $y
+<y>
+[$y]
+??$y
+<y>
+[$y]
+??$x
+<x>
+[$x]
+??1
+<>
+[$]
+-->$
+EXPR TERM
+｢$x + 1｣
+ term => ｢$x ｣
+  variable => ｢$x｣
+   sigil => ｢$｣
+    scalar-sigil => ｢$｣
+   identifier => ｢x｣
+    alpha => ｢x｣
+ expression => ｢1｣
+  value => ｢1｣
+   number => ｢1｣
+    digit => ｢1｣
+??$y = $x + 1
+<y>
+[$y]

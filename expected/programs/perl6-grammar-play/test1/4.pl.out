@@ -1,0 +1,25 @@
+43
+42
+｢x=42
+x++
+print x
+
+x--
+print x
+｣
+ statement => ｢x=42｣
+  assignment => ｢x=42｣
+   identifier => ｢x｣
+   value => ｢42｣
+ statement => ｢x++｣
+  inc => ｢x++｣
+   identifier => ｢x｣
+ statement => ｢print x｣
+  printout => ｢print x｣
+   identifier => ｢x｣
+ statement => ｢x--｣
+  dec => ｢x--｣
+   identifier => ｢x｣
+ statement => ｢print x｣
+  printout => ｢print x｣
+   identifier => ｢x｣

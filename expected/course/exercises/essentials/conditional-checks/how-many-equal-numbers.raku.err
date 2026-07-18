@@ -1,0 +1,8 @@
+Use of uninitialized value $n1 of type Any in numeric context
+  in block <unit> at how-many-equal-numbers.raku line 5
+Use of uninitialized value $n2 of type Any in numeric context
+  in block <unit> at how-many-equal-numbers.raku line 5
+Use of uninitialized value $n2 of type Any in numeric context
+  in block <unit> at how-many-equal-numbers.raku line 5
+Use of uninitialized value $n3 of type Any in numeric context
+  in block <unit> at how-many-equal-numbers.raku line 5

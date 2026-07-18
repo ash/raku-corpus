@@ -1,0 +1,7 @@
+Tried to get the result of a broken Promise
+  in block <unit> at promise3.pl line 3
+
+Original exception:
+    Died
+      in block <unit> at promise3.pl line 3
+

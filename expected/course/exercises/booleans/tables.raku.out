@@ -1,0 +1,12 @@
+True && True is True
+True && False is False
+False && True is False
+False && False is False
+True || True is True
+True || False is True
+False || True is True
+False || False is False
+True ^^ True is Nil
+True ^^ False is True
+False ^^ True is True
+False ^^ False is False

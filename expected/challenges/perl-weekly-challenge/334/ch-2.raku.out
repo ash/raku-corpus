@@ -1,0 +1,30 @@
+Input points: [[1 2] [3 1] [2 4] [2 3]], reference point: [3 4]
+Valid points: [{distance => 3, index => 1, point => [3 1]} {distance => 1, index => 2, point => [2 4]}]
+Minimum distance: 1
+Points with minimum distance: [{distance => 1, index => 2, point => [2 4]}]
+Result: 2
+
+Input points: [[3 4] [2 3] [1 5] [2 5]], reference point: [2 5]
+Valid points: [{distance => 2, index => 1, point => [2 3]} {distance => 1, index => 2, point => [1 5]} {distance => 0, index => 3, point => [2 5]}]
+Minimum distance: 0
+Points with minimum distance: [{distance => 0, index => 3, point => [2 5]}]
+Result: 3
+
+Input points: [[2 2] [3 3] [4 4]], reference point: [1 1]
+Valid points: []
+Result: -1
+
+Input points: [[0 1] [1 0] [0 2] [2 0]], reference point: [0 0]
+Valid points: [{distance => 1, index => 0, point => [0 1]} {distance => 1, index => 1, point => [1 0]} {distance => 2, index => 2, point => [0 2]} {distance => 2, index => 3, point => [2 0]}]
+Minimum distance: 1
+Points with minimum distance: [{distance => 1, index => 0, point => [0 1]} {distance => 1, index => 1, point => [1 0]}]
+Minimum index: 0
+Result: 0
+
+Input points: [[5 6] [6 5] [5 4] [4 5]], reference point: [5 5]
+Valid points: [{distance => 1, index => 0, point => [5 6]} {distance => 1, index => 1, point => [6 5]} {distance => 1, index => 2, point => [5 4]} {distance => 1, index => 3, point => [4 5]}]
+Minimum distance: 1
+Points with minimum distance: [{distance => 1, index => 0, point => [5 6]} {distance => 1, index => 1, point => [6 5]} {distance => 1, index => 2, point => [5 4]} {distance => 1, index => 3, point => [4 5]}]
+Minimum index: 0
+Result: 0
+

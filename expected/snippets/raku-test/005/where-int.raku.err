@@ -1,0 +1,4 @@
+Usage:
+  where-int.raku <x>
+  
+    <x>    $x must be < 10

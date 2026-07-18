@@ -1,0 +1,61 @@
+7
+｢my $x;
+my $y;
+
+$x = 3;
+$y = 4 + $x;
+say $y; # 7
+
+｣
+ statement => ｢my $x;
+｣
+  variable-declaration => ｢my $x｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣
+ statement => ｢my $y;
+
+｣
+  variable-declaration => ｢my $y｣
+   variable => ｢$y｣
+    sigil => ｢$｣
+    identifier => ｢y｣
+     alpha => ｢y｣
+ statement => ｢$x = 3;
+｣
+  assignment => ｢$x = 3｣
+   variable => ｢$x｣
+    sigil => ｢$｣
+    identifier => ｢x｣
+     alpha => ｢x｣
+   expression => ｢3｣
+    value => ｢3｣
+     number => ｢3｣
+      digit => ｢3｣
+ statement => ｢$y = 4 + $x;
+｣
+  assignment => ｢$y = 4 + $x｣
+   variable => ｢$y｣
+    sigil => ｢$｣
+    identifier => ｢y｣
+     alpha => ｢y｣
+   expression => ｢4 + $x｣
+    value => ｢4｣
+     number => ｢4｣
+      digit => ｢4｣
+    expression => ｢$x｣
+     variable => ｢$x｣
+      sigil => ｢$｣
+      identifier => ｢x｣
+       alpha => ｢x｣
+ statement => ｢say $y; ｣
+  say-function => ｢say $y｣
+   variable => ｢$y｣
+    sigil => ｢$｣
+    identifier => ｢y｣
+     alpha => ｢y｣
+ comment => ｢# 7
+
+｣
+{$ => {x => 3, y => 7}}

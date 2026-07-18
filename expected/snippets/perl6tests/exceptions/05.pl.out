@@ -1,0 +1,8 @@
+Enter dividend > Enter divisor > (DivideByZero)
+Attempt to divide by zero when coercing Rational to Str
+Attempt to divide by zero when coercing Rational to Str
+  in block <unit> at 05.pl line 5
+
+Failure!
+(DivideByZero)
+Done.

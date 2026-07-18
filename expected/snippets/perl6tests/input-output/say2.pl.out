@@ -1,0 +1,6 @@
+10 20 30
+[10 20 30]
+alpha	1
+beta	2
+gamma	3
+{alpha => 1, beta => 2, gamma => 3}

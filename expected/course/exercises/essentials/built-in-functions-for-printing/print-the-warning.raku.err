@@ -1,0 +1,5 @@
+Use of uninitialized value $age of type Any in numeric context
+  in block <unit> at print-the-warning.raku line 3
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at print-the-warning.raku line 7

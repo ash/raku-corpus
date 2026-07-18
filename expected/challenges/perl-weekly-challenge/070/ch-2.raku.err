@@ -1,0 +1,2 @@
+Use of uninitialized value @ARGS[0] of type Any in numeric context
+  in block <unit> at ch-2.raku line 11

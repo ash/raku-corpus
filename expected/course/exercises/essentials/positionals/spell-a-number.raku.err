@@ -1,0 +1,6 @@
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at spell-a-number.raku line 9
+Unable to call postcircumfix @names[ (Any) ] with a type object
+Indexing requires a defined object
+  in block <unit> at spell-a-number.raku line 10
+

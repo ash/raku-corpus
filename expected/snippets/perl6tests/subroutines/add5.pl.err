@@ -1,0 +1,4 @@
+===SORRY!=== Error while compiling add5.pl
+Calling add(Int, Int) will never work with declared signature ($x, $y, $z)
+at add5.pl:5
+------> say <HERE>add(1, 2);

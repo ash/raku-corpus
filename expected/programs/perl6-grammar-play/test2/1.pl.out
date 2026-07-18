@@ -1,0 +1,14 @@
+｢x = 15;
+y = 20;
+｣
+ statement => ｢x = 15｣
+  assignment => ｢x = 15｣
+   identifier => ｢x｣
+    identifier => ｢x｣
+   value => ｢15｣
+ statement => ｢y = 20｣
+  assignment => ｢y = 20｣
+   identifier => ｢y｣
+    identifier => ｢y｣
+   value => ｢20｣
+Match.new(:orig("x = 15;\ny = 20;\n"), :from(0), :pos(16), :hash(Map.new((:statement([Match.new(:orig("x = 15;\ny = 20;\n"), :from(0), :pos(6), :hash(Map.new((:assignment(Match.new(:orig("x = 15;\ny = 20;\n"), :from(0), :pos(6), :hash(Map.new((:identifier(Match.new(:orig("x = 15;\ny = 20;\n"), :from(0), :pos(1), :hash(Map.new((:identifier(Match.new(:orig("x = 15;\ny = 20;\n"), :from(0), :pos(1)))))))),:value(Match.new(:orig("x = 15;\ny = 20;\n"), :from(4), :pos(6)))))))))))), Match.new(:orig("x = 15;\ny = 20;\n"), :from(8), :pos(14), :hash(Map.new((:assignment(Match.new(:orig("x = 15;\ny = 20;\n"), :from(8), :pos(14), :hash(Map.new((:identifier(Match.new(:orig("x = 15;\ny = 20;\n"), :from(8), :pos(9), :hash(Map.new((:identifier(Match.new(:orig("x = 15;\ny = 20;\n"), :from(8), :pos(9)))))))),:value(Match.new(:orig("x = 15;\ny = 20;\n"), :from(12), :pos(14))))))))))))])))))

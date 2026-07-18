@@ -1,0 +1,6 @@
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at square-and-cube-2.raku line 2
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at square-and-cube-2.raku line 2
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at square-and-cube-2.raku line 3

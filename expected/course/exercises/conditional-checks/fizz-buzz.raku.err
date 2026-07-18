@@ -1,0 +1,4 @@
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at fizz-buzz.raku line 3
+Use of uninitialized value $n of type Any in numeric context
+  in block <unit> at fizz-buzz.raku line 4

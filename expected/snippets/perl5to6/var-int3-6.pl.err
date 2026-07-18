@@ -1,0 +1,3 @@
+Type check failed in assignment to $int; expected Int but got Str ("I am not an Int")
+  in block <unit> at var-int3-6.pl line 2
+

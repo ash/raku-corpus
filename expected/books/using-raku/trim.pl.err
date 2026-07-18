@@ -1,0 +1,4 @@
+Potential difficulties:
+    Redeclaration of symbol '$str'.
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.pCJQ6laX7n/trim.pl:12
+    ------> my $str<HERE> = "\n\tWord\r\t\n".trim;

@@ -1,0 +1,4 @@
+===SORRY!=== Error while compiling insert-operators.pl
+Calling try-variant() will never work with declared signature ($left, $position, $operator)
+at insert-operators.pl:10
+------>         <HERE>try-variant()

@@ -1,0 +1,4 @@
+===SORRY!=== Error while compiling sub12.pl
+Calling get-array(Int, Int, Int) will never work with declared signature (@a)
+at sub12.pl:5
+------> <BOL><HERE>get-array(1, 2, 3); # Error: Calling 'ge

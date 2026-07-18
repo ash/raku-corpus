@@ -1,0 +1,10 @@
+Cannot resolve caller min(Nil:U: ); none of these signatures matches:
+    (Any:D $:: *%_)
+    (Any:D $:: :&by!, *%_)
+    (Any:D $:: &by, *%_)
+    (Any:D $:: &by = Code.new, :$k!, *%_)
+    (Any:D $:: &by = Code.new, :$v!, *%_)
+    (Any:D $:: &by = Code.new, :$kv!, *%_)
+    (Any:D $:: &by = Code.new, :$p!, *%_)
+  in block <unit> at empty-min-max.raku line 11
+

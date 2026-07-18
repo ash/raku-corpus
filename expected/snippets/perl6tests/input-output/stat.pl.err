@@ -1,0 +1,14 @@
+Failed to open file /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.O13RcNBNZH/dummy.txt: No such file or directory
+  in block <unit> at stat.pl line 1
+
+Actually thrown at:
+  in block <unit> at stat.pl line 2
+
+Saw 1 occurrence of deprecated code.
+================================================================================
+Method path (from Cool) seen at:
+  stat.pl, line 2
+Please use IO instead.
+--------------------------------------------------------------------------------
+Please contact the author to have these occurrences of deprecated code
+adapted, so that this message will disappear!

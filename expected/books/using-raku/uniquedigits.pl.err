@@ -1,0 +1,6 @@
+Use of uninitialized value $number of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block <unit> at uniquedigits.pl line 2
+No such method 'comb' for invocant of type 'Any'
+  in block <unit> at uniquedigits.pl line 3
+

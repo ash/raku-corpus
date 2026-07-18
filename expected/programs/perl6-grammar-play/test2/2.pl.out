@@ -1,0 +1,11 @@
+｢a = 10;
+｣
+ statements => ｢a = 10;
+｣
+  statement => ｢a = 10｣
+   assignment => ｢a = 10｣
+    identifier => ｢a｣
+     0 => ｢a｣
+    value => ｢10｣
+     0 => ｢10｣
+Match.new(:orig("a = 10;\n"), :from(0), :pos(8), :hash(Map.new((:statements(Match.new(:orig("a = 10;\n"), :from(0), :pos(8), :hash(Map.new((:statement([Match.new(:orig("a = 10;\n"), :from(0), :pos(6), :hash(Map.new((:assignment(Match.new(:orig("a = 10;\n"), :from(0), :pos(6), :hash(Map.new((:identifier(Match.new(:orig("a = 10;\n"), :from(0), :pos(1), :list((Match.new(:orig("a = 10;\n"), :from(0), :pos(1)),)), :made("a"))),:value(Match.new(:orig("a = 10;\n"), :from(4), :pos(6), :list((Match.new(:orig("a = 10;\n"), :from(4), :pos(6)),)), :made(10)))))), :made(:assign(["a", 10]))))))))]))))))))))

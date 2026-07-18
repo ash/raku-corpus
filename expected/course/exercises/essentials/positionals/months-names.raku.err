@@ -1,0 +1,5 @@
+Use of uninitialized value @ARGS[0] of type Any in numeric context
+  in block <unit> at months-names.raku line 7
+Index out of range. Is: -1, should be in 0..^Inf
+  in block <unit> at months-names.raku line 7
+

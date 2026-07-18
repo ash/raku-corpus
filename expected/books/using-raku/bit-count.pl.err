@@ -1,0 +1,2 @@
+Use of uninitialized value $value of type Any in numeric context
+  in block <unit> at bit-count.pl line 2

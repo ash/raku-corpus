@@ -1,0 +1,2 @@
+WARNINGS for /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.5OCADdef23/metaop2.pl:
+Useless use of "===" in expression "$a=== $b" in sink context (line 3)

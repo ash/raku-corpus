@@ -1,0 +1,4 @@
+Attempt to divide 1 by zero when coercing Rational to Str
+  in sub MAIN at begin.raku line 6
+  in block <unit> at begin.raku line 1
+

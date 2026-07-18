@@ -1,0 +1,10 @@
+Use of uninitialized value $a of type Any in numeric context
+  in block <unit> at 08.pl line 3
+Use of uninitialized value $b of type Any in numeric context
+  in block <unit> at 08.pl line 3
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block  at 08.pl line 5
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in block  at 08.pl line 5

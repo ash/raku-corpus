@@ -1,0 +1,3 @@
+1
+House.new(rooms => 2, area => 100, height => 4, address => Address.new(housenumber => "31A", zipcode => "00194", country => "Italy", town => "Rome", street => "Via Dante"))
+50

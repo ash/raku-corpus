@@ -1,0 +1,17 @@
+a            is balanced
+(a)          is balanced
+(a b c)      is balanced
+a (b)        is balanced
+(b) a        is balanced
+(b (a))      is balanced
+( ( c))      is balanced
+a(b)c        is balanced
+a)           is not balanced
+(a) b c)     is not balanced
+a b)         is not balanced
+(b a         is not balanced
+((b (a))     is not balanced
+((c)         is not balanced
+(((a(((      is not balanced
+a (          is not balanced
+)a(          is not balanced

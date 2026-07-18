@@ -1,0 +1,25 @@
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in method mangled_name at 22.pl line 86
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in method mangled_name at 22.pl line 92
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in method mangled_name at 22.pl line 86
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in method mangled_name at 22.pl line 92
+Cannot convert string to number: base-10 number must begin with valid digits or '.' in '<HERE>\$x' (indicated by <HERE>)
+  in method expression at 22.pl line 131
+  in regex expression at 22.pl line 51
+  in regex assignment at 22.pl line 47
+  in regex statement at 22.pl line 8
+  in regex TOP at 22.pl line 2
+  in block <unit> at 22.pl line 152
+
+Actually thrown at:
+  in method TOP at 22.pl line 79
+  in regex TOP at 22.pl line 2
+  in block <unit> at 22.pl line 152
+

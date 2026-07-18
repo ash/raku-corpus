@@ -1,0 +1,4 @@
+Type check failed in binding to parameter '$x'; expected Int but got Any (Any)
+  in sub add at d.pl line 1
+  in block <unit> at d.pl line 8
+

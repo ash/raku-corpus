@@ -1,0 +1,10 @@
+Start
+== $_.^name ==
+X::AdHoc
+== $_ ==
+Error message
+  in block <unit> at 10.pl line 2
+
+== $! ==
+Nil
+Caught

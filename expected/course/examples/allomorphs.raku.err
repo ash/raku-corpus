@@ -1,0 +1,3 @@
+Type check failed in assignment to $i; expected Int but got Any (Any)
+  in block <unit> at allomorphs.raku line 2
+

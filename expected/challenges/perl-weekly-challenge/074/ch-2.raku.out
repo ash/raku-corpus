@@ -1,0 +1,5 @@
+In 'a': a
+In 'ab': b
+In 'aba': b
+In 'abab': #
+In 'ababc': c

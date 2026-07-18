@@ -1,0 +1,25 @@
+DBIish: DBDish::mysql needs '', not found.
+	Detail: Cannot locate symbol 'mysql_init' in native library ''
+  in method handle-library-exception at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 (DBIish) line 78
+  in block  at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 (DBIish) line 32
+  in any  at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 (DBIish) line 32
+  in method setup at /usr/local/Cellar/rakudo/2026.06/share/perl6/core/sources/EEE6F325C50C7153BF12B9F51429E0FF0F5F5DA7 (NativeCall) line 372
+  in method setup at /usr/local/Cellar/rakudo/2026.06/share/perl6/core/sources/EEE6F325C50C7153BF12B9F51429E0FF0F5F5DA7 (NativeCall) line 413
+  in sub raku-nativecall at /usr/local/Cellar/rakudo/2026.06/share/perl6/core/sources/67AB1C562A0D28A9BBA90DB6B906FFD535D7694F (NativeCall::Dispatcher) line 51
+  in method connect at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/C78C512A6B6D9F9775F016643C5C2404247A4A1F (DBDish::mysql) line 16
+  in method connect at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 (DBIish) line 30
+  in block <unit> at db1.pl line 3
+
+Actually thrown at:
+  in any  at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/precomp/B65578B3B87BE5440CB5681530F6B704AFFE9C0B/9E/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 line 1
+  in method connect at /usr/local/Cellar/rakudo/2026.06/share/perl6/site/sources/9E75E128C02C5F9EDF986B66437BA44E45EEF8D5 (DBIish) line 32
+  in block <unit> at db1.pl line 3
+
+Saw 1 occurrence of deprecated code.
+================================================================================
+.pm file extension in raku library path seen at:
+  file#/private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.PVoezKCwuu, line 0
+Please use the .rakumod extension for raku modules, or include a META6.json file that explicitly declares each raku module file instead.
+--------------------------------------------------------------------------------
+Please contact the author to have these occurrences of deprecated code
+adapted, so that this message will disappear!

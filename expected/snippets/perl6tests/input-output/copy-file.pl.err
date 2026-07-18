@@ -1,0 +1,3 @@
+Failed to copy '/private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.6R1td3f6Im/old.txt' to '/private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.6R1td3f6Im/new.txt': Failed to copy file: no such file or directory
+  in block <unit> at copy-file.pl line 1
+

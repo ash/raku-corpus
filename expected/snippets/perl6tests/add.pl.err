@@ -1,0 +1,11 @@
+===SORRY!===
+Calling shift() will never work with signature of the proto ($, *%)
+at add.pl:2
+------>     my $x = <HERE>shift;
+Calling shift() will never work with signature of the proto ($, *%)
+at add.pl:3
+------>     my $y = <HERE>shift;
+Calling add(Int, Int) will never work with declared signature ()
+at add.pl:7
+------> print <HERE>add(4, 5);
+

@@ -1,0 +1,7 @@
+Potential difficulties:
+    Asked to remove 8 spaces, but the shortest indent is 4 spaces
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.PzgJcwaO6L/heredocs-sub-tab-6.pl:7
+    ------> 	DOC<HERE><EOL>
+    Asked to remove 8 spaces, but the shortest indent is 4 spaces
+    at /private/var/folders/8y/kz8l_x2x63x5knxw5bpx16m40000gn/T/tmp.PzgJcwaO6L/heredocs-sub-tab-6.pl:7
+    ------> 	DOC<HERE><EOL>
