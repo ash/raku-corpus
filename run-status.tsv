@@ -141,7 +141,7 @@ OK	0	346	-	./books/perl6-at-a-glance/op58.pl
 OK	0	361	-	./books/perl6-at-a-glance/op59.pl
 OK	0	412	-	./books/perl6-at-a-glance/op6.pl
 OK	0	383	-	./books/perl6-at-a-glance/op60.pl
-OK	0	343	src-hint	./books/perl6-at-a-glance/op61.pl
+NONDET	0	343	src-hint	./books/perl6-at-a-glance/op61.pl
 OK	0	484	-	./books/perl6-at-a-glance/op62.pl
 OK	0	440	-	./books/perl6-at-a-glance/op63.pl
 OK	0	494	-	./books/perl6-at-a-glance/op64.pl
@@ -1882,5 +1882,5 @@ OK	0	441		./programs/rakupp-examples/rationals.raku
 OK	0	457		./programs/rakupp-examples/roman.raku
 OK	0	404		./programs/rakupp-examples/rpn.raku
 OK	0	332		./programs/rakupp-examples/sierpinski.raku
-OK	0	864	src-hint	./programs/rakupp-examples/sleep-sort.raku
+NONDET	0	864	src-hint	./programs/rakupp-examples/sleep-sort.raku
 OK	0	379		./programs/rakupp-examples/wordcount.raku

@@ -36,13 +36,13 @@ programs Rakudo cannot compile.
 
 | Status | Count | Meaning |
 |---|---:|---|
-| OK | 1,667 | ran clean twice with identical output — reference in `expected/` |
+| OK | 1,665 | ran clean twice with identical output — reference in `expected/` |
 | NONZERO | 147 | deterministic output, non-zero exit — reference in `expected/` |
-| NONDET | 58 | runs, but output varies (rand, hash order, time) — no reference |
+| NONDET | 60 | runs, but output varies (rand, hash order, time) — no reference |
 | ETERNAL | 13 | never terminates by design (servers, interactive/infinite loops) |
 | TIMEOUT | 1 | advent-of-code 2020/09/09-2 — wedges the runner (see note) |
 
-**1,814 programs (OK + NONZERO) form the differential set** for testing an
+**1,812 programs (OK + NONZERO) form the differential set** for testing an
 implementation against the references — see [`harness/`](harness/) for the
 committed runner, reference generator, and `perl6`/`raku` shim. Two references
 (PWC 044/048) legitimately need >30 s under Rakudo; the harness scales its
