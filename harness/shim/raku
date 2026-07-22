@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${RAKUPP:?set RAKUPP to the rakupp binary}" "$@"

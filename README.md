@@ -25,9 +25,28 @@ implementations break. This corpus is used as a test target for
 | `challenges/advent-of-raku-2020/` | 19 | [ash/advent-of-raku-2020](https://github.com/ash/advent-of-raku-2020) (`ash/`) | Advent of Code 2020 solutions from the community repo |
 | `snippets/` | 604 | perl6tests, perl6-play, raku-test, perl6-assorti, perl5to6 (Perl 6 halves only), migratingtoperl6 (`.pl6` only), yr2017-perl6, advent-2019 (`Raku/`), a-language-a-day (`Raku/`) | Small demonstration programs and playground experiments |
 | `programs/` | 96 | lingua, languages-in-raku, lang, factorial, num-seq (Raku files), perl6-grammar-play | Larger programs: the Lingua compiler, toy language interpreters, grammar experiments, algorithm collections |
+| `programs/rakupp-examples/` | 24 | [ash/rakupp](https://github.com/ash/rakupp) `examples/` | The Raku++ cookbook (added 2026-07-22 at v1.0.0): grammars, classic algorithms, a Brainfuck interpreter |
+| `rejected/` | 69 | (moved from the trees above) | Programs Rakudo cannot compile — pre-release syntax, deliberate error demos, missing ecosystem modules. Excluded from every count |
 
-In total: **1931 programs** (counted by file: `.raku`, `.p6`, `.pl6`, `.pl`, module
-and test files, and the one-liner `.sh` commands).
+In total: **1886 runnable programs** (counted by file: `.raku`, `.p6`, `.pl6`, `.pl`,
+module and test files, and the one-liner `.sh` commands), plus 69 `rejected/`
+programs Rakudo cannot compile.
+
+## Status accounting (`run-status.tsv`, Rakudo v2026.06)
+
+| Status | Count | Meaning |
+|---|---:|---|
+| OK | 1,667 | ran clean twice with identical output — reference in `expected/` |
+| NONZERO | 147 | deterministic output, non-zero exit — reference in `expected/` |
+| NONDET | 58 | runs, but output varies (rand, hash order, time) — no reference |
+| ETERNAL | 13 | never terminates by design (servers, interactive/infinite loops) |
+| TIMEOUT | 1 | advent-of-code 2020/09/09-2 — wedges the runner (see note) |
+
+**1,814 programs (OK + NONZERO) form the differential set** for testing an
+implementation against the references — see [`harness/`](harness/) for the
+committed runner, reference generator, and `perl6`/`raku` shim. Two references
+(PWC 044/048) legitimately need >30 s under Rakudo; the harness scales its
+alarm from the recorded runtime.
 
 ## Notes
 

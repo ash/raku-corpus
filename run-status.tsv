@@ -210,7 +210,7 @@ OK	0	406	-	./books/perl6-at-a-glance/uni8.pl
 OK	0	381	-	./books/perl6-at-a-glance/uni9.pl
 OK	0	401	-	./books/perl6-at-a-glance/var17.pl
 OK	0	341	-	./books/perl6-at-a-glance/whatever1.pl
-TIMEOUT	142	30094	-	./books/perl6-at-a-glance/whatever10.pl
+ETERNAL	142	30094	-	./books/perl6-at-a-glance/whatever10.pl
 OK	0	498	-	./books/perl6-at-a-glance/whatever12.pl
 OK	0	488	-	./books/perl6-at-a-glance/whatever2.pl
 OK	0	408	-	./books/perl6-at-a-glance/whatever3.pl
@@ -304,7 +304,7 @@ OK	0	401	-	./books/raku-one-liners/45a-dynamic-scope.raku
 OK	0	408	-	./books/raku-one-liners/45b-dynamic-scope-blocks.raku
 OK	0	372	-	./books/raku-one-liners/46-compiler-variables.raku
 OK	0	439	-	./books/raku-one-liners/47-call-all-methods.raku
-TIMEOUT	142	30058	-	./books/raku-one-liners/48-infinite-integers.raku
+ETERNAL	142	30058	-	./books/raku-one-liners/48-infinite-integers.raku
 NONDET	0	448	src-hint	./books/raku-one-liners/49-whatever-multi-method.raku
 OK	0	376	-	./books/raku-one-liners/50-echo-whatever.raku
 NONDET	0	517	src-hint	./books/raku-one-liners/51-whatevercode-multi-method.raku
@@ -390,8 +390,8 @@ NONDET	0	433	src-hint	./books/using-raku/formattedtime.pl
 OK	0	520	stderr	./books/using-raku/greetname1.pl
 OK	0	420	stderr	./books/using-raku/greetname2.pl
 OK	0	467	stderr	./books/using-raku/greetname3.pl
-TIMEOUT	142	30083	src-hint,stderr	./books/using-raku/guessnumber.pl
-TIMEOUT	142	30077	src-hint,stderr	./books/using-raku/guessnumber2.pl
+ETERNAL	142	30083	src-hint,stderr	./books/using-raku/guessnumber.pl
+ETERNAL	142	30077	src-hint,stderr	./books/using-raku/guessnumber2.pl
 OK	0	462	-	./books/using-raku/helloworld1.pl
 OK	0	470	-	./books/using-raku/helloworld2.pl
 OK	0	504	-	./books/using-raku/incfilename.pl
@@ -578,9 +578,9 @@ OK	0	441	-	./challenges/perl-weekly-challenge/031/ch-1a.raku
 OK	0	417	-	./challenges/perl-weekly-challenge/040/ch-1.raku
 OK	0	473	-	./challenges/perl-weekly-challenge/041/ch-2.raku
 OK	0	414	-	./challenges/perl-weekly-challenge/042/ch-1.raku
-TIMEOUT	142	30103	-	./challenges/perl-weekly-challenge/044/ch-1.raku
+OK	0	34581		./challenges/perl-weekly-challenge/044/ch-1.raku
 OK	0	515	-	./challenges/perl-weekly-challenge/047/ch-2.raku
-TIMEOUT	142	30089	-	./challenges/perl-weekly-challenge/048/ch-2.raku
+OK	0	50182		./challenges/perl-weekly-challenge/048/ch-2.raku
 OK	0	439	stderr	./challenges/perl-weekly-challenge/049/ch-1.raku
 OK	0	463	-	./challenges/perl-weekly-challenge/052/ch-1.raku
 OK	0	394	-	./challenges/perl-weekly-challenge/053/ch-1.raku
@@ -914,7 +914,7 @@ OK	0	781	-	./course/exercises/associatives/country-codes.raku
 OK	0	471	-	./course/exercises/associatives/purchase-table.raku
 OK	0	859	src-hint	./course/exercises/associatives/replace-with-antonyms.raku
 OK	0	426	-	./course/exercises/associatives/salary-raise.raku
-TIMEOUT	142	30063	stderr	./course/exercises/associatives/seen-before.raku
+ETERNAL	142	30063	stderr	./course/exercises/associatives/seen-before.raku
 OK	0	1069	-	./course/exercises/associatives/travel-distance.raku
 OK	0	453	-	./course/exercises/booleans/double-negation.raku
 OK	0	509	-	./course/exercises/booleans/tables.raku
@@ -933,7 +933,7 @@ OK	0	813	-	./course/exercises/essentials/associatives/country-codes.raku
 OK	0	650	-	./course/exercises/essentials/associatives/purchase-table.raku
 OK	0	1197	src-hint	./course/exercises/essentials/associatives/replace-with-antonyms.raku
 OK	0	680	-	./course/exercises/essentials/associatives/salary-raise.raku
-TIMEOUT	142	30053	stderr	./course/exercises/essentials/associatives/seen-before.raku
+ETERNAL	142	30053	stderr	./course/exercises/essentials/associatives/seen-before.raku
 OK	0	1276	-	./course/exercises/essentials/associatives/travel-distance.raku
 OK	0	510	-	./course/exercises/essentials/booleans/double-negation.raku
 OK	0	596	-	./course/exercises/essentials/booleans/tables.raku
@@ -957,12 +957,12 @@ OK	0	490	-	./course/exercises/essentials/functions/recursive-factorial.raku
 OK	0	635	-	./course/exercises/essentials/functions/the-value-of-e.raku
 OK	0	648	stderr	./course/exercises/essentials/loops/digital-stairs.raku
 OK	0	570	-	./course/exercises/essentials/loops/division-via-subtraction.raku
-TIMEOUT	142	30064	stderr	./course/exercises/essentials/loops/echo-until-enough.raku
+ETERNAL	142	30064	stderr	./course/exercises/essentials/loops/echo-until-enough.raku
 OK	0	472	-	./course/exercises/essentials/loops/factorial.raku
 OK	0	553	-	./course/exercises/essentials/loops/fibonacci-numbers.raku
 OK	0	613	-	./course/exercises/essentials/loops/fizbuzz-loop.raku
 OK	0	571	-	./course/exercises/essentials/loops/squares-and-cubes-loop.raku
-TIMEOUT	142	30212	stderr	./course/exercises/essentials/more-on-functions/factorial-with-multi-functions.raku
+ETERNAL	142	30212	stderr	./course/exercises/essentials/more-on-functions/factorial-with-multi-functions.raku
 OK	0	565	-	./course/exercises/essentials/numbers/apple-sharing.raku
 OK	0	617	-	./course/exercises/essentials/numbers/class-desks.raku
 OK	0	549	-	./course/exercises/essentials/numbers/pi.raku
@@ -1004,12 +1004,12 @@ OK	0	677	-	./course/exercises/functions/recursive-factorial.raku
 OK	0	630	-	./course/exercises/functions/the-value-of-e.raku
 OK	0	671	stderr	./course/exercises/loops/digital-stairs.raku
 OK	0	569	-	./course/exercises/loops/division-via-subtraction.raku
-TIMEOUT	142	30048	stderr	./course/exercises/loops/echo-until-enough.raku
+ETERNAL	142	30048	stderr	./course/exercises/loops/echo-until-enough.raku
 OK	0	517	-	./course/exercises/loops/factorial.raku
 OK	0	525	-	./course/exercises/loops/fibonacci-numbers.raku
 OK	0	547	-	./course/exercises/loops/fizbuzz-loop.raku
 OK	0	564	-	./course/exercises/loops/squares-and-cubes-loop.raku
-TIMEOUT	142	30171	stderr	./course/exercises/more-on-functions/factorial-with-multi-functions.raku
+ETERNAL	142	30171	stderr	./course/exercises/more-on-functions/factorial-with-multi-functions.raku
 OK	0	562	-	./course/exercises/numbers/apple-sharing.raku
 OK	0	573	-	./course/exercises/numbers/class-desks.raku
 OK	0	481	-	./course/exercises/numbers/pi.raku
@@ -1088,7 +1088,7 @@ OK	0	579	-	./course/exercises/paradigms/closures/counter.raku
 OK	0	513	-	./course/exercises/paradigms/closures/multiplier.raku
 OK	0	617	-	./course/exercises/paradigms/connections/connect-to-host.raku
 OK	0	568	-	./course/exercises/paradigms/connections/send-and-receive.raku
-TIMEOUT	142	30069	src-hint,stderr	./course/exercises/paradigms/cro/second-route.raku
+ETERNAL	142	30069	src-hint,stderr	./course/exercises/paradigms/cro/second-route.raku
 OK	0	4025	src-hint	./course/exercises/paradigms/cro/status-line.raku
 OK	0	614	-	./course/exercises/paradigms/feeds/feed-big-numbers.raku
 OK	0	561	-	./course/exercises/paradigms/feeds/feed-pipeline.raku
@@ -1099,7 +1099,7 @@ OK	0	603	-	./course/exercises/paradigms/generators/gather-vowels.raku
 OK	0	562	-	./course/exercises/paradigms/higher-order/apply-twice.raku
 OK	0	519	-	./course/exercises/paradigms/higher-order/filter-block.raku
 OK	0	603	-	./course/exercises/paradigms/higher-order/make-multiplier.raku
-TIMEOUT	142	30062	-	./course/exercises/paradigms/http-server/text-response.raku
+ETERNAL	142	30062	-	./course/exercises/paradigms/http-server/text-response.raku
 OK	0	546	-	./course/exercises/paradigms/hyper-race/hyper-filter.raku
 OK	0	558	-	./course/exercises/paradigms/hyper-race/hyper-map.raku
 OK	0	538	-	./course/exercises/paradigms/hyper-race/parallel-sum.raku
@@ -1514,7 +1514,7 @@ NONDET	0	557	-	./snippets/perl6tests/input-output/chemical.pl
 OK	0	457	-	./snippets/perl6tests/input-output/comb.pl
 NONZERO	1	403	stderr	./snippets/perl6tests/input-output/copy-file.pl
 OK	0	462	-	./snippets/perl6tests/input-output/copy.pl
-TIMEOUT	142	30055	-	./snippets/perl6tests/input-output/copy1.pl
+ETERNAL	142	30055	-	./snippets/perl6tests/input-output/copy1.pl
 NONDET	0	418	-	./snippets/perl6tests/input-output/cwd.pl
 OK	0	422	-	./snippets/perl6tests/input-output/d.pl
 OK	0	362	-	./snippets/perl6tests/input-output/d2.pl
@@ -1860,3 +1860,27 @@ OK	0	393	src-hint	./snippets/yr2017-perl6/17-sleep-sort.pl
 OK	0	8529	src-hint	./snippets/yr2017-perl6/18-timeout.pl
 OK	0	524	src-hint	./snippets/yr2017-perl6/19-parallel-dir.pl
 OK	0	674	-	./snippets/yr2017-perl6/20-brainfuck.pl
+OK	0	391		./programs/rakupp-examples/anagrams.raku
+OK	0	402		./programs/rakupp-examples/brainfuck.raku
+OK	0	496		./programs/rakupp-examples/calculator.raku
+OK	0	438		./programs/rakupp-examples/cipher.raku
+OK	0	360		./programs/rakupp-examples/echo-server.raku
+OK	0	405		./programs/rakupp-examples/factorize.raku
+OK	0	473		./programs/rakupp-examples/fibonacci.raku
+OK	0	430		./programs/rakupp-examples/hanoi.raku
+OK	0	696		./programs/rakupp-examples/json.raku
+NONDET	0	9924	src-hint	./programs/rakupp-examples/life.raku
+OK	0	788	src-hint	./programs/rakupp-examples/mandel.raku
+OK	0	462		./programs/rakupp-examples/matrix.raku
+OK	0	472		./programs/rakupp-examples/nqueens.raku
+OK	0	427		./programs/rakupp-examples/parallel.raku
+OK	0	412		./programs/rakupp-examples/pascal.raku
+OK	0	372		./programs/rakupp-examples/primes.raku
+OK	0	433	src-hint	./programs/rakupp-examples/quicksort.raku
+OK	0	300		./programs/rakupp-examples/quine.raku
+OK	0	441		./programs/rakupp-examples/rationals.raku
+OK	0	457		./programs/rakupp-examples/roman.raku
+OK	0	404		./programs/rakupp-examples/rpn.raku
+OK	0	332		./programs/rakupp-examples/sierpinski.raku
+OK	0	864	src-hint	./programs/rakupp-examples/sleep-sort.raku
+OK	0	379		./programs/rakupp-examples/wordcount.raku
